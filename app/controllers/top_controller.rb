@@ -1,5 +1,7 @@
 class TopController < ApplicationController
   def index
-    @message = "オハヨウゴザイマス"
+  end
+
+  def about
   end
 end
