@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_12_074622) do
+ActiveRecord::Schema.define(version: 2021_07_13_072238) do
 
   create_table "members", force: :cascade do |t|
     t.integer "number", null: false
     t.string "name", null: false
     t.string "full_name"
-    t.string "emai"
+    t.string "email"
     t.date "birthday"
     t.integer "sex", default: 1, null: false
     t.boolean "administrator", default: false, null: false
